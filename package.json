@@ -1,7 +1,7 @@
 {
   "name": "pg-promise-plus",
   "description": "postgresql based on sql-promise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Codenautas <codenautas@googlegroups.com>",
   "license": "MIT",
   "repository": "codenautas/pg-promise-plus",
@@ -10,10 +10,10 @@
   }],
   "dependencies": {
     "lodash": "3.10.1",
-    "pg": "4.4.1",
+    "pg": "4.4.2",
     "promise": "7.0.4",
     
-    "promise-plus": "0.0.4"
+    "promise-plus": "0.0.5"
   },
   "devDependencies": {
     "bluebird": "2.10.0",
@@ -29,8 +29,8 @@
     "when": "3.7.3",
     
     "pg-promise-strict": "0.2.1",
-    "sql-promise": "0.0.12",
-    "sql-promise-tester": "0.0.5"
+    "sql-promise": "0.0.13",
+    "sql-promise-tester": "0.0.6"
   },
   "main": "lib/pg-promise-plus.js",
   "engines": {
