@@ -1,6 +1,6 @@
 "use strict";
 
-var Promises = require('best-promise');
+var Promises = require('promise-plus');
 
 var tester=require('sql-promise-tester');
 
