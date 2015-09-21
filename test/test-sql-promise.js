@@ -13,7 +13,7 @@ var defaultConnOpts={
     port:5432
 }
 
-var MotorPg = require('../bin/pg-promise-plus.js').Motor;
+var MotorPg = require('../lib/pg-promise-plus.js').Motor;
 
 var conn;
 
