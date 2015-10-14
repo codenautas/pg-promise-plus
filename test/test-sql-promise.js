@@ -42,6 +42,5 @@ function prepareSchema(){
 
 tester(MotorPg, {
     connOpts:defaultConnOpts,
-    prepare:prepareSchema,
-    testUntil:'fetch'
+    prepare:prepareSchema
 });
