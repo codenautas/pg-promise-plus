@@ -47,12 +47,15 @@
     "curly": true,
     "forin": true
   },
-  "codenautas": {
+  "jshintConfig": {
+    "asi": false,
+    "curly": true,
+    "forin": true
+  },
+  "qa-control": {
     "package-version": "0.0.1",
     "run-in": "server",
-    "test-appveyor": true,
-    "type": "lib",
-    "stage": "extending",
-    "coverage": 50
+    "stability": "designing",
+    "type": "lib"
   }
 }
