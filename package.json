@@ -7,6 +7,8 @@
   "repository": "codenautas/pg-promise-plus",
   "contributors": [{
     "name": "Emilio Platzer", "email": "emilioplatzer@gmail.com"
+  },{
+    "name": "Diego Florio", "email": "diegoefe@gmail.com"
   }],
   "dependencies": {
     "lodash": "3.10.1",
