@@ -17,8 +17,6 @@ var MotorPg = require('../lib/pg-promise-plus.js').Motor;
 
 var conn;
 
-console.log('aca');
-
 function prepareSchema(){
     var pg = require('pg-promise-strict'); // provisorio hasta que tenga más funcionalidad
     return Promises.start().then(function(){
@@ -44,5 +42,6 @@ function prepareSchema(){
 
 tester(MotorPg, {
     connOpts:defaultConnOpts,
-    prepare:prepareSchema
+    prepare:prepareSchema,
+    testUntil:'fetch'
 });
