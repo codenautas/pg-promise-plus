@@ -3,7 +3,7 @@
 postgresql based on sql-promise
 
 
-![designing](https://img.shields.io/badge/stability-desgining-red.svg)
+![designing](https://img.shields.io/badge/stability-designing-red.svg)
 [![npm-version](https://img.shields.io/npm/v/pg-promise-plus.svg)](https://npmjs.org/package/pg-promise-plus)
 [![downloads](https://img.shields.io/npm/dm/pg-promise-plus.svg)](https://npmjs.org/package/pg-promise-plus)
 [![build](https://img.shields.io/travis/codenautas/pg-promise-plus/master.svg)](https://travis-ci.org/codenautas/pg-promise-plus)
